@@ -18,9 +18,8 @@ public class Main {
 
     public static int minAvgRow(int[][] arr, int rowIndex, float min, int minIndex) {
 
-        if( rowIndex == 0 ) {
+        if( rowIndex == 0 )
             return minIndex -1;
-        }
 
         float avg = 0;
         for(int i = 0; i < arr[rowIndex-1].length; i++) {
