@@ -36,7 +36,7 @@ public class Main {
 
     public static int minAvgRow(int[][] a) {
 
-        int res = minAvgRow(a, a.length, 100, 0);
+        int res = minAvgRow(a, a.length, Integer.MAX_VALUE, 0);
         System.out.println("Row index with min avg: " + res + " (0-based)");
         return res;
     }
