@@ -1,6 +1,8 @@
-package com.company;
+//
+// (ממ"ן) 15
+//
 
-import java.util.Arrays;
+package com.company;
 
 public class Main {
 
@@ -11,7 +13,6 @@ public class Main {
                 {-7,- 4, 1},
                 {1, 2, 3}
         };
-//        System.out.println(Arrays.deepToString(array));
         minAvgRow(array);
     }
 
@@ -34,10 +35,6 @@ public class Main {
     };
 
     public static int minAvgRow(int[][] a) {
-
-//        System.out.println(a.length);
-//        for(int rowIndex = 0; rowIndex < a.length; rowIndex++)
-//            System.out.println(Arrays.toString(a[rowIndex]));
 
         int res = minAvgRow(a, a.length, 100, 0);
         System.out.println("Row index with min avg: " + res + " (0-based)");
