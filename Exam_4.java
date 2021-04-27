@@ -37,10 +37,7 @@ public class Main {
         };
         int[] registered = new int[] {35, 8, 17, 16, 20};
         mostImportant(arrived, registered);
-
         
     }
-
-    
 
 }
