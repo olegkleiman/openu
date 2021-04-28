@@ -14,7 +14,6 @@ public static int sum(int[] a, int index) {
     return a[index-1] += _sum;
 }
 
-
 public static void main(String[] args) {
 
     int[] a = new int[]{10,2,3};
